@@ -12,7 +12,7 @@ var manifestPaths = &manifestPath{
 		"slimjet":   "~/.config/slimjet/NativeMessagingHosts",
 	},
 	global: map[string]string{
-		"firefox":   "mozilla/native-messaging-hosts", // will be prefixed with the appropriate lib path
+		"firefox":   "mozilla/native-messaging-hosts",   // will be prefixed with the appropriate lib path
 		"librewolf": "librewolf/native-messaging-hosts", // will be prefixed with the appropriate lib path
 		"chrome":    "/etc/opt/chrome/native-messaging-hosts",
 		"chromium":  "/etc/chromium/native-messaging-hosts",
